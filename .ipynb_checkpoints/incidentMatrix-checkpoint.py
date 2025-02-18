@@ -1,3 +1,5 @@
+import re
+
 class IncidenceMatrix:
     def __init__(self, statements, keywords):
         self.statements = statements

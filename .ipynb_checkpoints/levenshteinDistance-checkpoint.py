@@ -35,3 +35,10 @@ def levenshtein_distance(s1, s2):
         print(f"{row_label}  {row_values}")
     
     return dp[m][n]
+
+# Example usage
+if __name__ == "__main__":
+    s1 = "kitten"
+    s2 = "sitting"
+    distance = levenshtein_distance(s1, s2)
+    print(f"\nThe Levenshtein distance between '{s1}' and '{s2}' is: {distance}")
