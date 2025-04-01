@@ -5,7 +5,7 @@ from fractions import Fraction
  
 # keep it clean and tidy
 def float_format(vector, decimal):
-    return np.round((vector).astype(np.float64), decimals=decimal)
+    return np.round((vector).astype(np.float), decimals=decimal)
  
 # we have 3 webpages and probability of landing to each one is 1/3
 #(defaultProbability)
